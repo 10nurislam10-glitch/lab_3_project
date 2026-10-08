@@ -84,3 +84,22 @@ footer {
     background: #222;
     color: white;
 }
+
+.features {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    flex: 1;
+    min-width: 180px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+.feature-card h3 {
+    margin-bottom: 8px;
+}
